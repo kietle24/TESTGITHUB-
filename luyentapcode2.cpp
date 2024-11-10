@@ -65,17 +65,6 @@ int main()
             max = a[i];
     }
     printf("\nPhan tu lon nhat trong mang: %d", max);
-
-    tongMax = 0;
-    for (int i = 0; i < n; i++)
-    {
-        if (a[i] == max)
-        {
-            tongMax += a[i];
-        }
-    }
-    printf("\ncac phan tu co gia tri max trong mang la: %d", tongMax);
-
     min = a[0];
     for (int i = 1; i < n; i++)
     {
